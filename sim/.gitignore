@@ -1,0 +1,19 @@
+# Simulator work directory
+transcript*
+work/
+.cxl*
+
+# .cxl.modelsim.version # .cxl.ip/
+_*
+_Alert.txt
+_Log.txt
+_info
+**.bak
+**.mti
+**.mtp
+**.mpf
+**.wlf
+**.ini
+**.qdb
+**.qpg
+**.qtl

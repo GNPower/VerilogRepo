@@ -1,0 +1,3 @@
+[submodule "Hog"]
+	path = hog
+	url = https://gitlab.com/hog-cern/Hog.git
