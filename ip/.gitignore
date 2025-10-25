@@ -13,10 +13,16 @@
 #   limitations under the License.
 
 ### Hog .gitignore ###
-# The following two lines assume that you have your IPs like this: <ip name>/<ip name>.xci
+# The following two lines assume that you have your IPs like this: <ip name>/<ip name>.<ip type>
 # If you have a more complex subdirectory structure please make sure that:
 # - the last subdirectory has the same name as the IP and that
-# - only .xci files are committed.
+# - only IP files are committed.
 #
 */*
+
+# Vivado IP files
 !*/*.xci*
+
+# Quartus IP files
+!*/*.qsys*
+!*/*.qip*

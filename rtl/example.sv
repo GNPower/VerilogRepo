@@ -19,3 +19,7 @@ always_comb begin : adder
 end
     
 endmodule
+
+`ifndef DISABLE_DEFAULT_NET
+`default_nettype wire
+`endif
